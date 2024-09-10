@@ -1,0 +1,25 @@
+{% if page.mathjax %}
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+{% endif %}
+
+{% if page.customcss %}
+<style> 
+/* Center the table within its container */
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Center the text in the header cells */
+table.center th {
+    text-align: center;
+    background-color: #cecece; /* Change this color to your preferred background color */
+}
+table.center td {
+    text-align: center;
+    border: 0px;
+}
+</style> 
+{% endif %}
