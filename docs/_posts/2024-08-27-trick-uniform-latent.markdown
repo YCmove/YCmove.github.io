@@ -1,6 +1,6 @@
 ---
 layout: posts
-title:  "[FIFO-Diffusion+] Uniformly Extended Latents"
+title:  "[FIFO-Diffusion+] Extending the Latent Uniformly"
 date:   2024-08-27 19:45:21 +0200
 author_profile: true
 mathjax: true
@@ -10,7 +10,7 @@ author: yuc
 permalink: /posts/2024-08-27-trick-uniform-latent
 ---
 
-To explain the "uniform Latents" trick I used to boost visual consistency in FIFO-Diffusion, we need to dive into the mechanism behind long video generation.
+To explain the "Extending the Latent Uniformly" trick I used to boost visual consistency in FIFO-Diffusion, we need to dive into the mechanism behind long video generation.
 
 - [FIFO-Diffusion: Generating Infinite Videos from Text without Training](https://arxiv.org/abs/2405.11473){:target="_blank"}
 
@@ -276,4 +276,4 @@ Improving Visual Consistency Series:
 
 1. **[Seeding the initial latent frame](/posts/2024-08-22-trick-seeding-initial-frame)**
 2. **[Weighted Q-caches](/posts/2024-08-24-trick-weighted-q-caches)**
-3. **[Uniform Latents](/posts/2024-08-27-trick-uniform-latent)**
+3. **[Extending the Latent Uniformly](/posts/2024-08-27-trick-uniform-latent)**

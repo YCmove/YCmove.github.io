@@ -215,10 +215,10 @@ I looked closely at the denoising process for some problematic frames (119, 120,
 </tbody>
 </table>
 
-Since I'm using FIFO-Diffusion to make long videos, we're working with a technique called "diagonal denoising." It's a bit complicated, so let's dive deeper into it in my next post --- [Uniform Latents](/posts/2024-08-27-trick-uniform-latent).
+Since I'm using FIFO-Diffusion to make long videos, we're working with a technique called "diagonal denoising." It's a bit complicated, so let's dive deeper into it in my next post --- [Extending the Latent Uniformly](/posts/2024-08-27-trick-uniform-latent).
 
 Improving Visual Consistency Series:
 
 1. **[Seeding the initial latent frame](/posts/2024-08-22-trick-seeding-initial-frame)**
 2. **[Weighted Q-caches](/posts/2024-08-24-trick-weighted-q-caches)**
-3. **[Uniform Latents](/posts/2024-08-27-trick-uniform-latent)**
+3. **[Extending the Latent Uniformly](/posts/2024-08-27-trick-uniform-latent)**

@@ -31,13 +31,15 @@ This series began with a perplexing body-flipped video…
 </thead>
 <tbody>
 <tr>
-    <td colspan="2"><img src="/assets/imgs/a_person_swimming_in_ocean/gif_flipped/person_flipping.gif"/></td>
+    <td colspan="2"><img src="/assets/imgs/a_person_swimming_in_ocean/85-95_fifo/body_flipping.gif"/></td>
 </tr>
 </tbody>
 </table>
 
-How can I fix visual inconsistency in long video generation in FIFO-Diffusion? After some digging, I found a few tricks that help:
+How can I fix visual inconsistency in long video generation in FIFO-Diffusion? I rolled up my sleeves and started digging around..
+
+After some exploring, I uncovered a few tricks that can help (no cats were harmed because I don't have one.):
 
 1. **[Seeding the initial latent frame](/posts/2024-08-22-trick-seeding-initial-frame)**
 2. **[Weighted Q-caches](/posts/2024-08-24-trick-weighted-q-caches)**
-3. **[Uniform Latents](/posts/2024-08-27-trick-uniform-latent)**
+3. **[Extending the Latent Uniformly](/posts/2024-08-27-trick-uniform-latent)**
