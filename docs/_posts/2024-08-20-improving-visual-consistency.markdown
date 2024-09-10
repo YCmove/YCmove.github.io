@@ -2,7 +2,7 @@
 layout: posts
 title:  "[FIFO-Diffusion+] Improving Visual Consistency for Long Video Generation"
 date:   2024-08-20 17:51:33 +0200
-author_profile: true
+author_profile: false
 classes: wide
 customcss: true
 author: yuc

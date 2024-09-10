@@ -1,6 +1,6 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Gist"
-    url: https://gist.github.com/YCmove
-    target: _blank
+  # - title: "Gist"
+  #   url: https://gist.github.com/YCmove
+  #   target: _blank

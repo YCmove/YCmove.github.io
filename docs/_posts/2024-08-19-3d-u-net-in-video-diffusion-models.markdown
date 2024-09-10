@@ -2,7 +2,7 @@
 layout: posts
 title:  "3D U-Net in Video Diffusion Models(VDMs)"
 date:   2024-08-19 22:08:01 +0200
-author_profile: true
+author_profile: false
 mathjax: true
 classes: wide
 author: yuc
