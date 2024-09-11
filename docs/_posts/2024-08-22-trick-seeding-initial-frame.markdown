@@ -2,7 +2,7 @@
 layout: posts
 title:  "[FIFO-Diffusion+] Seeding the Initial generated frame as the image embedding"
 date:   2024-08-22 19:20:07 +0200
-author_profile: false
+author_profile: true
 classes: wide
 customcss: true
 author: yuc

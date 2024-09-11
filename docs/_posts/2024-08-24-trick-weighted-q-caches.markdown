@@ -2,7 +2,7 @@
 layout: posts
 title:  "[FIFO-Diffusion+] Weighted Q-caches"
 date:   2024-08-24 09:23:10 +0200
-author_profile: false
+author_profile: true
 mathjax: true
 classes: wide
 customcss: true

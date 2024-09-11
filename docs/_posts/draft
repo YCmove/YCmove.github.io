@@ -1,0 +1,5 @@
+lvdm/models/samplers/ddim.py
+
+# DDIM paper eq. 12
+# x_prev = a_prev.sqrt() * pred_x0 + dir_xt
+x_prev = a_prev.sqrt() * pred_x0 + dir_xt + noise

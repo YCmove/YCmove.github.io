@@ -2,7 +2,7 @@
 layout: posts
 title:  "[FIFO-Diffusion+] Extending the Latent Uniformly"
 date:   2024-08-27 19:45:21 +0200
-author_profile: false
+author_profile: true
 mathjax: true
 classes: wide
 customcss: true
