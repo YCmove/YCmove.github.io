@@ -8,6 +8,8 @@ author: yuc
 <br>
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/icons/meme.png){: .align-center}
 
+<!-- I also think and do lots of outdoor sports. -->
+
 <!-- ![image-center]({{ site.url }}{{ site.baseurl }}/assets/icons/author2_300.png){: .align-center} -->
 
 <!-- <figure class="align-left">
