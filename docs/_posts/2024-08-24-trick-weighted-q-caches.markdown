@@ -1,6 +1,6 @@
 ---
-layout: posts
-title:  "[FIFO-Diffusion+] Weighted Q-caches"
+layout: single
+title:  "[FIFO-Diffusion Series] Weighted Q-caches in Temporal Attention"
 date:   2024-08-24 09:23:10 +0200
 author_profile: true
 mathjax: true
@@ -30,6 +30,7 @@ Inspired by these insights, I went on to identify actionable codes in VideoCraft
 ![]({% link /assets/imgs/3dunet_diffusion/Unet_skipcon.jpg %} "3D U-Net Diffusion Model")
 
 Since direct mapping wasn't possible, I took a manual approach. I selected corresponding queries from the encoder to map to the decoder, ensuring they have the same dimensions for weighted addition. Nothing too complex --- just making sure the pieces fit together perfectly.
+
 $$ 
 Q^* = (1-v_t)Q_{\text{decoder}} + v_t \underbrace{Q_{\text{cache}}}_{=Q_{\text{encoder}}}
 $$
@@ -42,7 +43,7 @@ I tried experimenting with different values for $$v_t$$ to see if I could improv
 ![]({% link /assets/imgs/3dunet_diffusion/Unet_qcaches.jpg %} "3D U-Net Diffusion Model with weighted q-caches")
 
 Since I aimed to enhance temporal visual consistency, I targeted the self-attention modules in the temporal transformer for applying Q-caches. Here's the breakdown:
-![]({% link /assets/imgs/3dunet_diffusion/STattn_qdimension.jpg %} "Spatio-Temporal Attention Overview")
+![]({% link /assets/imgs/3dunet_diffusion/STattn_qdimension_STattn2.jpg %} "Spatio-Temporal Attention Overview")
 - Shape of Q = (batch, frames, vector length) = (12800, 16, 64)
 - Shape of Self-attention map $$QK^T$$: (12800, 16, 16)
 
@@ -217,8 +218,8 @@ I looked closely at the denoising process for some problematic frames (119, 120,
 
 Since I'm using FIFO-Diffusion to make long videos, we're working with a technique called "diagonal denoising." It's a bit complicated, so let's dive deeper into it in my next post --- [Extending the Latent Uniformly](/posts/2024-08-27-trick-uniform-latent).
 
-Improving Visual Consistency Series:
+<!-- Improving Visual Consistency Series:
 
 1. **[Seeding the initial latent frame](/posts/2024-08-22-trick-seeding-initial-frame)**
 2. **[Weighted Q-caches](/posts/2024-08-24-trick-weighted-q-caches)**
-3. **[Extending the Latent Uniformly](/posts/2024-08-27-trick-uniform-latent)**
+3. **[Extending the Latent Uniformly](/posts/2024-08-27-trick-uniform-latent)** -->

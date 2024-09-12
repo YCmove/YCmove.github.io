@@ -1,6 +1,6 @@
 ---
-layout: posts
-title:  "[FIFO-Diffusion+] Extending the Latent Uniformly"
+layout: single
+title:  "[FIFO-Diffusion Series] Extending the Latent Uniformly"
 date:   2024-08-27 19:45:21 +0200
 author_profile: true
 mathjax: true
@@ -270,10 +270,10 @@ Quick note:
 
 - I'm skipping over **Lookahead Denoising** mechanism in this series since I want to keep things simple for now. If you're curious, check out the [original paper](https://arxiv.org/abs/2405.11473){:target="_blank"} for the details.
 
----
+<!-- ---
 
 Improving Visual Consistency Series:
 
 1. **[Seeding the initial latent frame](/posts/2024-08-22-trick-seeding-initial-frame)**
 2. **[Weighted Q-caches](/posts/2024-08-24-trick-weighted-q-caches)**
-3. **[Extending the Latent Uniformly](/posts/2024-08-27-trick-uniform-latent)**
+3. **[Extending the Latent Uniformly](/posts/2024-08-27-trick-uniform-latent)** -->

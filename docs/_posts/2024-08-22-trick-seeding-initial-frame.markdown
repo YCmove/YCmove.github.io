@@ -1,12 +1,13 @@
 ---
-layout: posts
-title:  "[FIFO-Diffusion+] Seeding the Initial generated frame as the image embedding"
+layout: single
+title:  "[FIFO-Diffusion Series] Seeding the Initial generated frame as the image embedding"
 date:   2024-08-22 19:20:07 +0200
 author_profile: true
 classes: wide
 customcss: true
 author: yuc
 permalink: /posts/2024-08-22-trick-seeding-initial-frame
+
 ---
 
 The original [FIFO-Diffusion](https://github.com/jjihwan/FIFO-Diffusion_public){:target="_blank"} supports only text-to-video generation, but out of curiosity, I decided to extend it to handle image-to-video as well, adapting from the [VideoCrafter](https://github.com/AILab-CVC/VideoCrafter){:target="_blank"}. Below are some results using input images and texts from [VBench](https://github.com/Vchitect/VBench?tab=readme-ov-file){:target="_blank"}:
@@ -99,10 +100,10 @@ Experiment results:
 </table>
 
 
----
+<!-- ---
 
 Improving Visual Consistency Series:
 
 1. **[Seeding the initial latent frame](/posts/2024-08-22-trick-seeding-initial-frame)**
 2. **[Weighted Q-caches](/posts/2024-08-24-trick-weighted-q-caches)**
-3. **[Extending the Latent Uniformly](/posts/2024-08-27-trick-uniform-latent)**
+3. **[Extending the Latent Uniformly](/posts/2024-08-27-trick-uniform-latent)** -->

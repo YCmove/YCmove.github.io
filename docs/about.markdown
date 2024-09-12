@@ -6,7 +6,7 @@ author_profile: true
 author: yuc
 ---
 <br>
-![image-center]({{ site.url }}{{ site.baseurl }}/assets/icons/meme.png){: .align-center}
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/icons/meme_what_i_think.png){: .align-center}
 
 <!-- I also think and do lots of outdoor sports. -->
 

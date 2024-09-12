@@ -1,6 +1,6 @@
 ---
-layout: posts
-title:  "[FIFO-Diffusion+] Improving Visual Consistency for Long Video Generation"
+layout: single
+title:  "[FIFO-Diffusion Series] Improving Visual Consistency for Long Video Generation"
 date:   2024-08-20 17:51:33 +0200
 author_profile: true
 classes: wide
@@ -44,4 +44,4 @@ After some exploring, I uncovered a few tricks that can help (no cats were harme
 2. **[Weighted Q-caches](/posts/2024-08-24-trick-weighted-q-caches)**
 3. **[Extending the Latent Uniformly](/posts/2024-08-27-trick-uniform-latent)**
 
-Implemented code -> [my GitHub](https://github.com/YCmove/FIFO-Diffusion_public)
+[**Code Implemention**](https://github.com/YCmove/FIFO-Diffusion_public)

@@ -30,15 +30,19 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: true
       share: true
-      related: false
+      related: true
 
 future: false
 markdown: kramdown
 
-
+comments:
+  provider: utterances
+  utterances:
+    theme: github-light
+    issue_term: pathname
 
 # Exclude from processing.
 # The following items will not be processed, by default.

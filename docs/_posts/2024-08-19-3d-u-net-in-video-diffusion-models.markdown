@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: single
 title:  "3D U-Net in Video Diffusion Models(VDMs)"
 date:   2024-08-19 22:08:01 +0200
 author_profile: true
@@ -9,10 +9,11 @@ author: yuc
 permalink: /posts/2024-08-19-3d-u-net-in-video-diffusion-models
 ---
 
-> Diffusion models = Forward process + Denoising process
 > Latent Diffusion Models = Autoencoder + Forward process + Denoising process
 
-Think of it like this: In the forward process, we start with a clear picture and gradually add noise to it. In the reverse process, we start with a noisy picture and try to clean it up.
+The Denoising part is the core because it's the **generative process** that reconstructs the image in latent space.
+
+Here's a simple way to think about it: In the forward process, we start with a clear picture and gradually add noise to it. In the reverse process, we start with a noisy picture and try to clean it up.
 
 U-Net is one of the popular neural networks for the denoising process. It is trained to iteratively estimate the noise at each step, refining the noisy latent toward the clean target.
 
@@ -127,4 +128,4 @@ The modules within ST-Attention operate as follows:
 - [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/abs/1505.04597){:target="_blank"}
 - [(3D-Unet) Video Diffusion Models](https://arxiv.org/abs/2204.03458){:target="_blank"}
 
-<!-- <script src="https://gist.github.com/ycmove/8a9714ea1ccd03b81e95ce2d81563efc.js"></script> -->
+
