@@ -8,6 +8,8 @@ classes: wide
 customcss: true
 author: yuc
 permalink: /posts/2024-09-01-mess-qcaches
+category:
+    - ai
 ---
 
 Remember when we tried [Q-caches in Temporal Transformer](/posts/2024-08-24-trick-weighted-q-caches){:target="blank"} and it was a success? 

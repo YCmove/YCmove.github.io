@@ -18,14 +18,33 @@ plugins:
   - jekyll-include-cache
   - jekyll-gist
   - jekyll-target-blank
+  - jekyll-archives
 
 logo: "/assets/icons/icon.png"
+
+tag_archive:
+  type: liquid
+  path: /tags/
+
+jekyll-archives:
+  enabled:
+    - tags
+  layouts:
+    tag: archive-taxonomy
+  permalinks:
+    tag: /tags/:name/
+
+collections:
+  pages:
+    path: _posts/devnotes/
+    output: true
+    permalink: /tags/:name
 
 
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: _posts
       type: posts
     values:
       layout: single
@@ -34,15 +53,24 @@ defaults:
       comments: true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: _pages
+      type: pages
+    values:
+      layout: single
+      classes: wide
 
-future: false
-markdown: kramdown
 
 comments:
   provider: utterances
   utterances:
     theme: github-light
     issue_term: pathname
+
+future: false
+markdown: kramdown
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

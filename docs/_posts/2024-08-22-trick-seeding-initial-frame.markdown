@@ -7,7 +7,8 @@ classes: wide
 customcss: true
 author: yuc
 permalink: /posts/2024-08-22-trick-seeding-initial-frame
-
+category:
+    - ai
 ---
 
 The original [FIFO-Diffusion](https://github.com/jjihwan/FIFO-Diffusion_public){:target="_blank"} supports only text-to-video generation, but out of curiosity, I decided to extend it to handle image-to-video as well, adapting from the [VideoCrafter](https://github.com/AILab-CVC/VideoCrafter){:target="_blank"}. Below are some results using input images and texts from [VBench](https://github.com/Vchitect/VBench?tab=readme-ov-file){:target="_blank"}:

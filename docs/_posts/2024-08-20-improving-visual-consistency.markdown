@@ -6,6 +6,11 @@ author_profile: true
 classes: wide
 customcss: true
 author: yuc
+permalink: /posts/2024-08-20-improving-visual-consistency
+category:
+    - ai
+# tags:
+#    - python
 ---
 
 This series began with a perplexing body-flipped video…

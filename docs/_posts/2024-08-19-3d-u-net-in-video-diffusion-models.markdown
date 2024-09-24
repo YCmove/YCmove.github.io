@@ -7,6 +7,10 @@ mathjax: true
 classes: wide
 author: yuc
 permalink: /posts/2024-08-19-3d-u-net-in-video-diffusion-models
+category:
+    - ai
+# tags:
+#    - python
 ---
 
 > Latent Diffusion Models = Autoencoder + Forward process + Denoising process

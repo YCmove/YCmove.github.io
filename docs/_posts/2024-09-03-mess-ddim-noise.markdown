@@ -8,6 +8,8 @@ classes: wide
 customcss: true
 author: yuc
 permalink: /posts/2024-09-03-mess-ddim-noise
+category:
+    - ai
 ---
 
 In Denoising Diffusion Probabilistic Models(DDPMs), each denoising step moves the latent closer to a cleaner versio. This step can be expressed as: (Eq. 12 from  [DDIM paper](https://arxiv.org/abs/2010.02502){:target="blank"} eq. 12)):

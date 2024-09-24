@@ -8,6 +8,8 @@ classes: wide
 customcss: true
 author: yuc
 permalink: /posts/2024-08-27-trick-uniform-latent
+category:
+    - ai
 ---
 
 To explain the "Extending the Latent Uniformly" trick I used to boost visual consistency in FIFO-Diffusion, we need to dive into the mechanism behind long video generation.

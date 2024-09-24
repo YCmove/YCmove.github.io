@@ -8,6 +8,8 @@ classes: wide
 customcss: true
 author: yuc
 permalink: /posts/2024-08-24-trick-weighted-q-caches
+category:
+    - ai
 ---
 
 
