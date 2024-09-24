@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "[FIFO-Diffusion Series] Weighted Q-caches in Temporal Attention"
+title:  "Weighted Q-caches in Temporal Attention"
 date:   2024-08-24 09:23:10 +0200
 author_profile: true
 mathjax: true
@@ -8,8 +8,11 @@ classes: wide
 customcss: true
 author: yuc
 permalink: /posts/2024-08-24-trick-weighted-q-caches
+last_modified_at: 2024-08-24 09:23:10 +0900
 category:
-    - ai
+    - FIFO-Diffusion Series
+# tags:
+#    - blog
 ---
 
 

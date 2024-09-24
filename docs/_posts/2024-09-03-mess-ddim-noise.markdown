@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "[Mess-around Series] Removing DDPM Random Noise"
+title:  "Removing DDPM Random Noise"
 date:   2024-09-03 20:38:16 +0200
 author_profile: true
 mathjax: true
@@ -8,8 +8,11 @@ classes: wide
 customcss: true
 author: yuc
 permalink: /posts/2024-09-03-mess-ddim-noise
+last_modified_at: 2024-09-03 20:38:16 +0200
 category:
-    - ai
+    - Mess-around Series
+# tags:
+#    - blog
 ---
 
 In Denoising Diffusion Probabilistic Models(DDPMs), each denoising step moves the latent closer to a cleaner versio. This step can be expressed as: (Eq. 12 from  [DDIM paper](https://arxiv.org/abs/2010.02502){:target="blank"} eq. 12)):

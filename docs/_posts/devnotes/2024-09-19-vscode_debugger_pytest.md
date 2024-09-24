@@ -4,7 +4,8 @@ date: 2024-09-19 22:08:01 +0200
 tags:
    - vscode
 layout: tag
-hidden: true
+
+# hidden: true
 ---
 
 <!-- # Setting up vscode debugger for pytest -->

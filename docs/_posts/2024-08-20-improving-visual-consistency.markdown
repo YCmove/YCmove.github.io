@@ -1,16 +1,17 @@
 ---
 layout: single
-title:  "[FIFO-Diffusion Series] Improving Visual Consistency for Long Video Generation"
+title:  "Improving Visual Consistency for Long Video Generation"
 date:   2024-08-20 17:51:33 +0200
 author_profile: true
 classes: wide
 customcss: true
 author: yuc
 permalink: /posts/2024-08-20-improving-visual-consistency
+last_modified_at: 2024-08-20 17:51:33 +0200
 category:
-    - ai
+    - FIFO-Diffusion Series
 # tags:
-#    - python
+#    - blog
 ---
 
 This series began with a perplexing body-flipped video…

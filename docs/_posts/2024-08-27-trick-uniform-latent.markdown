@@ -1,15 +1,18 @@
 ---
 layout: single
-title:  "[FIFO-Diffusion Series] Extending the Latent Uniformly"
-date:   2024-08-27 19:45:21 +0200
+title:  "Extending the Latent Uniformly"
+date:   2024-08-27 19:45:21 +0100
 author_profile: true
 mathjax: true
 classes: wide
 customcss: true
 author: yuc
 permalink: /posts/2024-08-27-trick-uniform-latent
+last_modified_at: 2024-08-27 19:45:21 +0100
 category:
-    - ai
+    - FIFO-Diffusion Series
+# tags:
+#    - blog
 ---
 
 To explain the "Extending the Latent Uniformly" trick I used to boost visual consistency in FIFO-Diffusion, we need to dive into the mechanism behind long video generation.

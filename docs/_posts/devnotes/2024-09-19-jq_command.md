@@ -4,7 +4,8 @@ date: 2024-09-19 20:22:11 +0200
 tags:
    - unix
 layout: tag
-hidden: true
+
+# hidden: true
 ---
 
 <!-- # Pretty Print and Search JSON in Your Terminal -->

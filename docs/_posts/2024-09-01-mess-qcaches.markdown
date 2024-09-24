@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "[Mess-around Series] Anywhere Q-caches"
+title:  "Anywhere Q-caches"
 date:   2024-09-01 13:00:21 +0200
 author_profile: true
 mathjax: true
@@ -8,8 +8,11 @@ classes: wide
 customcss: true
 author: yuc
 permalink: /posts/2024-09-01-mess-qcaches
+last_modified_at: 2024-09-01 13:00:21 +0800
 category:
-    - ai
+    - Mess-around Series
+# tags:
+#    - blog
 ---
 
 Remember when we tried [Q-caches in Temporal Transformer](/posts/2024-08-24-trick-weighted-q-caches){:target="blank"} and it was a success? 
