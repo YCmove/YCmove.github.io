@@ -28,3 +28,9 @@ addopts = --dtype=float32,float64 --device=all
 Now enjoy it!
 
 ![]({% link /assets/devnote_imgs/vscode_testing.png %} " ")
+
+Or of course you can run test in termial
+
+```
+pytest -s tests/geometry/epipolar/test_triangulation.py::TestSomeClass::test_some_ function--dtype=float32,float64 --device=all
+```
